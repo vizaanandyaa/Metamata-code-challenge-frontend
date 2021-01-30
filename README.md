@@ -18,5 +18,5 @@ Membuat Website resep makanan;
 
 ## Pengumpulan
 - Fork Repository ini untuk mulai mengerjakan
-- WhatsApp saya jika sudah selesai atau ada yang ingin ditanyakan
+- WhatsApp ke [Qorthony](https://wa.me/08872402827) jika sudah selesai atau ada yang ingin ditanyakan
 - Batas Pengumpulan H-1 dari jadwal interview 
