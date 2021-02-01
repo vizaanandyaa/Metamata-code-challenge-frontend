@@ -1,0 +1,158 @@
+/* Bagian Header*/
+.logo{
+    background-color:#3A3C42;
+    color:#9CCD62;
+    padding: 16px 0px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+}
+
+/* Bagian Tagline*/
+.headimg{
+    background:linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url(images/head.png);
+    background-size: cover;
+    border-radius: 0 0 20px 20px;
+}
+
+.tagline{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    color:#F7F8E2;
+    padding: 116px 10px;
+    font-size: 45px;
+}
+
+/* Bagian Menu*/
+
+/* Bagian Pencarian*/
+.search{
+    margin: 30px 200px;
+}
+
+.form-control{
+    border: 1px solid #9CCD62;
+    border-radius: 50px;
+
+}
+
+.btnsearch{
+    background-color: #9CCD62;
+    border-radius: 50px;
+    border: none;
+    padding: 7px 54px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.btnsearch:hover{
+    filter: brightness(90%);
+}
+
+.btnsearch:active{
+    filter: brightness(50%);
+}
+
+/* Bagian Hasil Pencarian*/
+.result{
+    padding: 0px 150px;
+}
+
+.result p{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    color: #9CCD62;
+}
+
+.card{
+    background-color: #3A3C42;
+    color:#9CCD62 ;
+    border: none;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+span{
+    padding: 8px 9px;
+    background-color:#9CCD62;
+    color: black;
+    border-radius: 10px;
+    margin:0px 10px 0 50px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    filter: brightness(90%);
+}
+
+a:active{
+    filter: brightness(50%);
+}
+
+/* Bagian Footer */
+.footer{
+    padding: 35px 0;
+    background-color: #DFDECA;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    margin-top: 100px;
+    font-size: 24px;
+}
+
+/* Desktop */
+@media (max-width:992px){
+    .search{
+        margin: 30px 50px;
+    }  
+     
+    .result{
+        padding: 40px 0px;
+    }
+
+    span{
+        margin: 0 10px 0 10px;
+    }
+    
+}
+
+/* Tablet */
+@media (max-width:767px){
+    .btnsearch{
+        margin: 10px auto;
+    }
+    .result{
+        padding: 40px 50px;
+    }
+    
+
+    .card{
+        margin-top: 20px;
+    }
+
+    span{
+        margin: 0 10px 0 130px;
+    }
+}
+
+/* Mobile */
+@media (max-width:435px){
+    .btnsearch{
+        margin: 10px auto;
+    }
+    
+    .search{
+        margin: 30px 0px;
+    } 
+    .result{
+        padding: 40px 0px;
+    }
+
+    span{
+        margin: 0 10px 0 30px;
+    }
+}
