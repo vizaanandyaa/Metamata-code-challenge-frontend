@@ -21,3 +21,10 @@ Membuat Website resep makanan;
 - Tambahkan cara instalasi/run di README.md. Jika website di deploy maka tambahkan link pada README.md
 - WhatsApp ke [Qorthony](https://wa.me/08872402827) jika sudah selesai atau ada yang ingin ditanyakan
 - Batas Pengumpulan sebelu waktu interview 
+
+## Cara Instalasi 
+- Download Projek
+- Jalankan index.html
+
+## Deployment 
+- [RecipeBooks](https://vizaanandyaa.github.io/Metamata-code-challenge-frontend/)
